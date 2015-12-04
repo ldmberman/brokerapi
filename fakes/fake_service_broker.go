@@ -1,6 +1,6 @@
 package fakes
 
-import "github.com/pivotal-cf/brokerapi"
+import "github.com/ldmberman/brokerapi"
 
 type FakeServiceBroker struct {
 	ProvisionDetails brokerapi.ProvisionDetails

@@ -1,11 +1,11 @@
 package brokerapi_test
 
 import (
+	. "github.com/ldmberman/brokerapi/matchers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	. "github.com/pivotal-cf/brokerapi/matchers"
 
-	"github.com/pivotal-cf/brokerapi"
+	"github.com/ldmberman/brokerapi"
 )
 
 var _ = Describe("Catalog", func() {

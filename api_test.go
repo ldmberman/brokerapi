@@ -16,8 +16,8 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/pivotal-cf/brokerapi"
-	"github.com/pivotal-cf/brokerapi/fakes"
+	"github.com/ldmberman/brokerapi"
+	"github.com/ldmberman/brokerapi/fakes"
 )
 
 var _ = Describe("Service Broker API", func() {
